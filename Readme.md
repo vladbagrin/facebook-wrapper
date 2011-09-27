@@ -10,7 +10,7 @@ written by the developers at Heroku.
 
 The available Node.js modules for Facebook use other oauth modules that do not
 work well with a Facebook Application, the main reason I wrote this. For
-instance, the redirect is not mad with a js script, resulting in an ugly link
+instance, the redirect is not made with a js script, resulting in an ugly link
 in the app canvas. They also seem unnecessarily complex when all we need is a
 simple set of functions.
 
