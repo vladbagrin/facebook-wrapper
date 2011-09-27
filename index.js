@@ -1,1 +1,1 @@
-module.exports = require('./lib/facebook-api');
+module.exports = require('./lib/facebook-wrapper');

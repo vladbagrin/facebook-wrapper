@@ -1,9 +1,9 @@
 {
-  "name": "facebook-api",
+  "name": "facebook-wrapper",
   "description": "A basic Facebook API wrapper for Node.js and Express/Connect",
   "version": "0.0.1",
   "author": "Vlad Bagrin <vlad.bagrin@gmail.com>",
-  "repository": "git@github.com:vladbagrin/facebook-api.git",
+  "repository": "git@github.com:vladbagrin/facebook-wrapper.git",
   "main": "./index.js",
   "engines": { "node": ">= 0.3.0" }
 }

@@ -1,4 +1,4 @@
-var facebook = require('../lib/facebook-api');
+var facebook = require('../lib/facebook-wrapper');
 var express = require('express');
 var fs = require('fs');
 var config_file = 'config.json';

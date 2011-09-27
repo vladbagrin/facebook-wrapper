@@ -18,7 +18,7 @@ Installing
 Install via npm:
 
 ```javascript
-npm install facebook-api
+npm install facebook-wrapper
 ```
 
 How to use
@@ -39,7 +39,7 @@ For now, the access_token and other data are not kept in the session variables,
 for simplicity and redundancy (a good thing in some cases on Facebook).
 
 ```javascript
-var facebook = require('../lib/facebook-api');
+var facebook = require('../lib/facebook-wrapper');
 var express = require('express');
 var options = {
 	app_id: "YOUR APP ID",
