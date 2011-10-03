@@ -1,12 +1,13 @@
-var facebook = require('../lib/facebook-wrapper');
+var facebook = require(__dirname + '/../lib/facebook-wrapper');
 var express = require('express');
 var fs = require('fs');
-var config_file = 'config.json';
+var config_file = __dirname + '/config.json';
 
 var options = JSON.parse(fs.readFileSync(config_file));
 
 var server = express.createServer(
 	express.logger(),
+	express.bodyParser(),
 	express.cookieParser(),
 	express.session({ secret: process.env.SESSION_SECRET || 'secret123' }),
 	facebook.auth(options)
