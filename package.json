@@ -2,7 +2,7 @@
   "author": "Vlad Bagrin <vlad.bagrin@gmail.com>",
   "name": "facebook-wrapper",
   "description": "A basic Facebook API wrapper for Node.js and Express/Connect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/vladbagrin/facebook-wrapper",
   "repository": {
     "type": "git",

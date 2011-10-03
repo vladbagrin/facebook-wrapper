@@ -40,6 +40,9 @@ function, as it uses sessions to prevent a CSRF attack.
 For now, the access_token and other data are not kept in the session variables,
 for simplicity and redundancy (a good thing in some cases on Facebook).
 
+Also, Facebook now requires all apps to parse the signed_request, so another
+important middleware to add before facebook.auth is the bodyParser.
+
 ```javascript
 var facebook = require('../lib/facebook-wrapper');
 var express = require('express');
@@ -51,6 +54,7 @@ var options = {
 
 var server = express.createServer(
 	express.logger(),
+	express.bodyParser(),
 	express.cookieParser(),
 	express.session({ secret: 'secret123' }),
 	facebook.auth(options)
