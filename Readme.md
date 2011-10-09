@@ -3,7 +3,7 @@ About
 
 This is a basic wrapper to the Facebook API, designed to work with Connect and
 Express in a simple and straightforward manner. I will hopefully add more
-features and make it more robust in time.
+features and make it more robust in time. I will gladly accept contributions.
 
 It was written from scratch, partly inspired by the PHP Facebook API wrapper
 written by the developers at Heroku.
@@ -83,3 +83,21 @@ server.post('/*', function (req, res) {
 });
 server.listen(8000);
 ```
+
+Licence
+=======
+
+Copyright (C) 2011 Vlad Bagrin
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
