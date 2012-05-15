@@ -10,7 +10,7 @@
   },
   "main": "./index.js",
   "engines": {
-    "node": "0.4.x"
+    "node": ">=0.4.10"
   },
   "dependencies": {},
   "devDependencies": {}
